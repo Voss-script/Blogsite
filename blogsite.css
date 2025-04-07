@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+/* nav bar */
+
+header{
+    color: #333;
+    padding: 25px;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: centre;
+    margin: 0;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    padding: 5px;
+    font-size: 14px;
+    
+}
+
+a.nav-btn:hover, a.nav-btn:active, a.nav-btn:focus{
+    background: #F5F5F5;
+}
+a:hover, a:active, a:focus{
+    color: #010E12;
+}
+
+.logo{
+    position: absolute;
+    left: 100px;
+}
+.nested-nav{
+    position: absolute;
+    right: 375px;
+}
+
+#search{
+    width: 100px;
+    padding: 7px;
+    border:1px solid #010E12;
+    position: absolute;
+    right: 225px; 
+    top: 20px;
+    text-indent: 20px;
+    background-image: url(assets/btn.png);
+    background-repeat: no-repeat;
+    background-position: 5px;  
+}
+
+#search::placeholder,#email::placeholder{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.nav-btn{
+    font-weight: 600;
+    background-color: #010E12;
+    color: #fff;
+    padding: 7px 12px;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+}
+/* nav bar end */
+
+/* main  */
+.container{
+    margin: 0 100px;
+    text-align: center;
+    color: #9a9a9a;
+    position: relative;
+}
+
+.lead-text{
+    display: block;
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 72px;
+    font-family: 'Narnia', sans-serif; 
+    font-weight: 400;
+    color: #010E12;     
+    margin-top: 75px;
+    padding: 0%;
+    margin-bottom: 0;
+    line-height: 65px;
+}
+main p {
+    padding: 0;
+    margin: 0 0 30px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+input#email{
+    width: 270px;
+    padding: 10px;
+    border: 1px solid #010E12;
+    display: inline;
+    margin: 0;
+    margin-right: -5px;
+}
+
+label{
+    display: block;
+    margin-right: 305px;
+    color: #010E12;
+    font-weight: 600;
+}
+
+button{
+    padding: 10px;
+    background: #010E12;
+    border: 1px solid #010E12;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+
+}
+
+button:hover, button:active, button:focus{
+    background: #F5F5F5;
+    color: #010E12;
+
+}
+
+.read-btn-left{
+    margin-top: 33px;
+}
+.read-btn-top{
+    margin-top: 12px;
+}
+.read-btn-mid,.read-btn-bottom{
+    margin-top: 36px;
+}
+
+.right-hook{
+    position: absolute;
+    width: 46px;
+    top: 29px;
+    right: 188px;
+}
+
+.left-hook{
+    position: absolute;
+    width: 46px;
+    top: -22px;
+    left: 415px;
+}
+/* main ends  */
+
+
+/* aside left side  */
+aside.left-side{
+    width: 480px;
+    text-align: left;
+    padding-left: 100px;
+    margin-right: 0;
+}
+h2{
+    color: #010E12;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+glass-container{
+    position: relative;
+    width: 450px;
+}
+
+aside.left-side img{
+    width: 450px;
+    padding-bottom:15px;
+}
+
+.glass{
+    width: 450px;
+    height: 85px;
+    background: linear-gradient(135deg, rgba(255, 255, 255,0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    position: absolute;
+    top: 770px;
+    color: #F5F5F5;
+}
+
+.glass h3, h4, .glass p{
+    color: #F5F5F5;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.glass h3{
+    font-size: 20px;
+}
+
+.glass p{
+    font-weight: 500;
+    font-size: 12PX;
+
+}
+
+h4{
+    position: absolute;
+    top: 1px;
+    font-size: 16px;
+    left: 350px;
+}
+
+h3{
+    color: #010E12;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+ aside p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0;
+    color: #9a9a9a;
+    line-height: 24px;
+    margin-bottom: 0%;
+}
+
+/* aside left side end  */
+section{
+    display: flex;
+    flex-direction: row;
+
+}
+/* aside right side  */
+
+aside.right-side{
+    width: 690px;
+    text-align: left;
+    margin-top: 79px;
+    
+}
+
+aside.right-side img{
+    width: 340px;
+    height: 170px;
+   padding: 0 15px 15px 0;
+}
+
+aside.right-side article{
+    display: flex;
+}
